@@ -7,10 +7,10 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
   background-image: url("./images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .page-container {
@@ -151,9 +151,6 @@ footer p {
 main {
   outline: 0.5px solid rgba(255, 255, 255, 0.3);
   outline-offset: -5px;
-}
-
-.home-content {
   padding: 3%;
   background: rgba(20, 42, 66, 0.8);
 }
@@ -173,5 +170,85 @@ main {
 }
 
 .tile a {
+  color: #557892;
+}
+
+.services-content {
+  margin-top: 4%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3%;
+}
+
+.services-content .images {
+  grid-column: 1 / 2;
+}
+
+.services-content .content {
+  grid-column: 2 / span 2;
+}
+
+.images img {
+  width: 100%;
+}
+
+.content h2 {
+  color: #557892;
+  font-family: "mesmerize-sc-lt";
+  margin: 0;
+}
+
+.content p {
+  color: #fff;
+}
+
+.content p a {
+  color: #557892;
+}
+
+.content ul {
+  padding-left: 2rem;
+}
+
+.content ul li {
+  color: #fff;
+}
+
+.help {
+  background: rgba(20, 42, 66, 0.6);
+  padding: 2% 4% 1% 4%;
+  border-top: 0.8px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 0.8px solid rgba(255, 255, 255, 0.6);
+  margin-top: 4%;
+}
+
+.help h3 {
+  color: #fff;
+  margin: 0;
+}
+
+.help button {
+  background-image: linear-gradient(0deg, #000, #438ae4);
+  border: none;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 2% 0;
+}
+
+.images img {
+  margin-bottom: 5%;
+}
+
+.service-links {
+  margin: 0;
+  list-style-type: none;
+  padding: 2% 0 3% 0;
+  border-top: 0.8px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 0.8px solid rgba(255, 255, 255, 0.6);
+}
+
+.service-links li a {
   color: #557892;
 }
