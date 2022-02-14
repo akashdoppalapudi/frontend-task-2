@@ -60,7 +60,7 @@ header {
 }
 
 header img {
-  width: 200px;
+  width: 25%;
 }
 
 .navlinks {
@@ -81,7 +81,7 @@ header img {
 
 .navlinks li a span {
   margin: 0;
-  padding: 0 20px;
+  padding: 0 1rem;
   color: #557892;
   font-family: "mesmerize-sc-lt";
   font-weight: bolder;
@@ -251,4 +251,170 @@ main {
 
 .service-links li a {
   color: #557892;
+}
+
+@media only screen and (max-width: 1470px) {
+  .navlinks li a span {
+    padding: 0 0.5rem;
+  }
+
+  header {
+    height: 40px;
+  }
+
+  .qoute h1 {
+    letter-spacing: 5px;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .navlinks li a span {
+    font-size: 90%;
+    padding: 0 0.35rem;
+  }
+
+  .qoute h1 {
+    font-size: 200%;
+  }
+
+  footer p {
+    font-size: 90%;
+  }
+
+  .footer-links li a {
+    font-size: 90%;
+  }
+
+  .help h3 {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .navlinks li a span {
+    padding: 0 0.2rem;
+    font-size: 80%;
+  }
+
+  .qoute h1 {
+    font-size: 175%;
+    letter-spacing: 4px;
+  }
+
+  header img {
+    width: 20%;
+  }
+
+  .top-links li a {
+    font-size: 70%;
+  }
+
+  .top-links {
+    padding-top: 3px;
+  }
+
+  footer p {
+    font-size: 80%;
+  }
+
+  .tile p {
+    font-size: 90%;
+  }
+
+  .tile a {
+    font-size: 90%;
+  }
+
+  .content h2 {
+    font-size: 130%;
+  }
+
+  .content p {
+    font-size: 90%;
+  }
+
+  .content p a {
+    font-size: 90%;
+  }
+
+  .content ul li {
+    font-size: 90%;
+  }
+
+  .help {
+    font-size: 75%;
+  }
+
+  .help button {
+    font-size: 90%;
+  }
+
+  .service-links li a {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .page-container {
+    width: 80%;
+  }
+
+  header img {
+    width: 80px;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+
+  .qoute h1 {
+    font-size: 175%;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .page-container {
+    width: 100%;
+  }
+
+  .tile-container {
+    display: block;
+  }
+
+  .tile {
+    margin-top: 2%;
+  }
+
+  .navlinks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .navlinks li {
+    text-align: center;
+    margin-left: 0.3rem;
+  }
+
+  .navlinks li a span {
+    padding: 0.2rem;
+    font-size: 70%;
+    border: none !important;
+  }
+
+  .services-content {
+    display: block;
+  }
+
+  .content {
+    margin-top: 5%;
+  }
+
+  .help button {
+    width: 100%;
+  }
+
+  header {
+    height: 50px;
+  }
 }
