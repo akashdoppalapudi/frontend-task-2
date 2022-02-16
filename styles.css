@@ -1,420 +1,413 @@
-@font-face {
-  font-family: "mesmerize-sc-lt";
-  src: url("./fonts/mesmerize-sc-lt.otf") format("opentype");
-  font-style: normal;
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  background-image: url("./images/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	background-image: url('./images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Trebuchet MS';
 }
 
 .page-container {
-  width: 60%;
-  margin: auto;
+	width: 60%;
+	margin: auto;
 }
 
 .top-links-container {
-  display: flex;
-  justify-content: right;
+	display: flex;
+	justify-content: right;
 }
 
 .top-links {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 5px 1px;
-  background: rgba(20, 42, 66, 0.5);
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 1px;
+	background: rgba(20, 42, 66, 0.5);
 }
 
 .top-links li:not(:last-child) a {
-  border-right: 1px solid #fff;
+	border-right: 1px solid #fff;
 }
 
 .top-links li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 0 5px;
-  margin: 0;
-  font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 5px;
+	margin: 0;
+	font-size: 12px;
 }
 
 .top-links li a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  padding: 1% 2%;
-  height: 50px;
-  background: rgba(20, 42, 66, 0.8);
-  margin-top: 3%;
-  outline: 0.5px solid rgba(255, 255, 255, 0.3);
-  outline-offset: -5px;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	padding: 1% 2%;
+	height: 50px;
+	background: rgba(20, 42, 66, 0.8);
+	margin-top: 3%;
+	outline: 0.5px solid rgba(255, 255, 255, 0.3);
+	outline-offset: -5px;
+	justify-content: space-between;
 }
 
 header img {
-  width: 25%;
+	width: 25%;
 }
 
 .navlinks {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
+	display: flex;
+	list-style-type: none;
+	margin: 0;
 }
 
 .navlinks li:not(:last-child) a span {
-  border-right: solid 2px #fff;
+	border-right: solid 2px #fff;
 }
 
 .navlinks li a {
-  text-decoration: none;
-  padding: 5px 0;
-  border-radius: 3px;
+	text-decoration: none;
+	padding: 5px 0;
+	border-radius: 3px;
 }
 
 .navlinks li a span {
-  margin: 0;
-  padding: 0 1rem;
-  color: #557892;
-  font-family: "mesmerize-sc-lt";
-  font-weight: bolder;
+	margin: 0;
+	padding: 0 1rem;
+	color: #557892;
+	font-weight: bolder;
 }
 
 .navlinks li a:hover {
-  background: rgba(256, 256, 256, 0.6);
+	background: rgba(256, 256, 256, 0.6);
 }
 
 .navlinks li a.active {
-  background: rgba(256, 256, 256, 0.6);
+	background: rgba(256, 256, 256, 0.6);
 }
 
 .navlinks li a:hover span {
-  color: #fff;
+	color: #fff;
 }
 
 .navlinks li a.active span {
-  color: #fff;
+	color: #fff;
 }
 
 .qoute h1 {
-  margin: 0;
-  color: #fff;
-  font-family: "mesmerize-sc-lt";
-  font-weight: lighter;
-  font-size: 250%;
-  letter-spacing: 10px;
+	margin: 0;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 250%;
+	letter-spacing: 10px;
 }
 
 .qoute {
-  background: rgba(20, 42, 66, 0.2);
-  padding: 3% 3%;
+	background: rgba(20, 42, 66, 0.2);
+	padding: 3% 3%;
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  background: rgba(20, 42, 66, 0.5);
-  padding: 5px 0;
-  margin-top: 1%;
+	display: flex;
+	justify-content: center;
+	background: rgba(20, 42, 66, 0.5);
+	padding: 5px 0;
+	margin-top: 1%;
 }
 
 footer p {
-  color: #fff;
-  margin: 0;
+	color: #fff;
+	margin: 0;
 }
 
 .footer-links {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-left: 5px;
-  align-items: center;
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 5px;
+	align-items: center;
 }
 
 .footer-links li a {
-  padding: 0 5px;
-  color: #fff;
+	padding: 0 5px;
+	color: #fff;
 }
 
 .footer-links li:not(:last-child) a {
-  border-right: 1px solid #fff;
+	border-right: 1px solid #fff;
 }
 
 main {
-  outline: 0.5px solid rgba(255, 255, 255, 0.3);
-  outline-offset: -5px;
-  padding: 3%;
-  background: rgba(20, 42, 66, 0.8);
+	outline: 0.5px solid rgba(255, 255, 255, 0.3);
+	outline-offset: -5px;
+	padding: 3%;
+	background: rgba(20, 42, 66, 0.8);
 }
 
 .tile-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 3%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 3%;
 }
 
 .tile p {
-  color: #fff;
+	color: #fff;
 }
 
 .tile img {
-  width: 100%;
+	width: 100%;
 }
 
 .tile a {
-  color: #557892;
+	color: #557892;
 }
 
 .services-content {
-  margin-top: 4%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 3%;
+	margin-top: 4%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 3%;
 }
 
 .services-content .images {
-  grid-column: 1 / 2;
+	grid-column: 1 / 2;
 }
 
 .services-content .content {
-  grid-column: 2 / span 2;
+	grid-column: 2 / span 2;
 }
 
 .images img {
-  width: 100%;
+	width: 100%;
 }
 
 .content h2 {
-  color: #557892;
-  font-family: "mesmerize-sc-lt";
-  margin: 0;
+	color: #557892;
+	margin: 0;
 }
 
 .content p {
-  color: #fff;
+	color: #fff;
 }
 
 .content p a {
-  color: #557892;
+	color: #557892;
 }
 
 .content ul {
-  padding-left: 2rem;
+	padding-left: 2rem;
 }
 
 .content ul li {
-  color: #fff;
+	color: #fff;
 }
 
 .help {
-  background: rgba(20, 42, 66, 0.6);
-  padding: 2% 4% 1% 4%;
-  border-top: 0.8px solid rgba(255, 255, 255, 0.6);
-  border-bottom: 0.8px solid rgba(255, 255, 255, 0.6);
-  margin-top: 4%;
+	background: rgba(20, 42, 66, 0.6);
+	padding: 2% 4% 1% 4%;
+	border-top: 0.8px solid rgba(255, 255, 255, 0.6);
+	border-bottom: 0.8px solid rgba(255, 255, 255, 0.6);
+	margin-top: 4%;
 }
 
 .help h3 {
-  color: #fff;
-  margin: 0;
+	font-weight: normal;
+	color: #fff;
+	margin: 0;
 }
 
 .help button {
-  background-image: linear-gradient(0deg, #000, #438ae4);
-  border: none;
-  color: #fff;
-  padding: 3px 5px;
-  border-radius: 2px;
-  cursor: pointer;
-  margin: 2% 0;
+	background-image: linear-gradient(0deg, #000, #438ae4);
+	border: none;
+	color: #fff;
+	padding: 3px 5px;
+	border-radius: 2px;
+	cursor: pointer;
+	margin: 2% 0;
 }
 
 .images img {
-  margin-bottom: 5%;
+	margin-bottom: 5%;
 }
 
 .service-links {
-  margin: 0;
-  list-style-type: none;
-  padding: 2% 0 3% 0;
-  border-top: 0.8px solid rgba(255, 255, 255, 0.6);
-  border-bottom: 0.8px solid rgba(255, 255, 255, 0.6);
+	margin: 0;
+	list-style-type: none;
+	padding: 2% 0 3% 0;
+	border-top: 0.8px solid rgba(255, 255, 255, 0.6);
+	border-bottom: 0.8px solid rgba(255, 255, 255, 0.6);
 }
 
 .service-links li a {
-  color: #557892;
+	color: #557892;
 }
 
 @media only screen and (max-width: 1470px) {
-  .navlinks li a span {
-    padding: 0 0.5rem;
-  }
+	.navlinks li a span {
+		padding: 0 0.5rem;
+	}
 
-  header {
-    height: 40px;
-  }
+	header {
+		height: 40px;
+	}
 
-  .qoute h1 {
-    letter-spacing: 5px;
-  }
+	.qoute h1 {
+		letter-spacing: 5px;
+	}
 }
 
 @media only screen and (max-width: 1270px) {
-  .navlinks li a span {
-    font-size: 90%;
-    padding: 0 0.35rem;
-  }
+	.navlinks li a span {
+		font-size: 90%;
+		padding: 0 0.35rem;
+	}
 
-  .qoute h1 {
-    font-size: 200%;
-  }
+	.qoute h1 {
+		font-size: 200%;
+	}
 
-  footer p {
-    font-size: 90%;
-  }
+	footer p {
+		font-size: 90%;
+	}
 
-  .footer-links li a {
-    font-size: 90%;
-  }
+	.footer-links li a {
+		font-size: 90%;
+	}
 
-  .help h3 {
-    font-size: 100%;
-  }
+	.help h3 {
+		font-size: 100%;
+	}
 }
 
 @media only screen and (max-width: 1160px) {
-  .navlinks li a span {
-    padding: 0 0.2rem;
-    font-size: 80%;
-  }
+	.navlinks li a span {
+		padding: 0 0.2rem;
+		font-size: 80%;
+	}
 
-  .qoute h1 {
-    font-size: 175%;
-    letter-spacing: 4px;
-  }
+	.qoute h1 {
+		font-size: 175%;
+		letter-spacing: 4px;
+	}
 
-  header img {
-    width: 20%;
-  }
+	header img {
+		width: 20%;
+	}
 
-  .top-links li a {
-    font-size: 70%;
-  }
+	.top-links li a {
+		font-size: 70%;
+	}
 
-  .top-links {
-    padding-top: 3px;
-  }
+	.top-links {
+		padding-top: 3px;
+	}
 
-  footer p {
-    font-size: 80%;
-  }
+	footer p {
+		font-size: 80%;
+	}
 
-  .tile p {
-    font-size: 90%;
-  }
+	.tile p {
+		font-size: 90%;
+	}
 
-  .tile a {
-    font-size: 90%;
-  }
+	.tile a {
+		font-size: 90%;
+	}
 
-  .content h2 {
-    font-size: 130%;
-  }
+	.content h2 {
+		font-size: 130%;
+	}
 
-  .content p {
-    font-size: 90%;
-  }
+	.content p {
+		font-size: 90%;
+	}
 
-  .content p a {
-    font-size: 90%;
-  }
+	.content p a {
+		font-size: 90%;
+	}
 
-  .content ul li {
-    font-size: 90%;
-  }
+	.content ul li {
+		font-size: 90%;
+	}
 
-  .help {
-    font-size: 75%;
-  }
+	.help {
+		font-size: 75%;
+	}
 
-  .help button {
-    font-size: 90%;
-  }
+	.help button {
+		font-size: 90%;
+	}
 
-  .service-links li a {
-    font-size: 90%;
-  }
+	.service-links li a {
+		font-size: 90%;
+	}
 }
 
 @media only screen and (max-width: 880px) {
-  .page-container {
-    width: 80%;
-  }
+	.page-container {
+		width: 80%;
+	}
 
-  header img {
-    width: 80px;
-  }
+	header img {
+		width: 80px;
+	}
 
-  header {
-    justify-content: space-around;
-  }
+	header {
+		justify-content: space-around;
+	}
 
-  .qoute h1 {
-    font-size: 175%;
-    letter-spacing: 2px;
-  }
+	.qoute h1 {
+		font-size: 175%;
+		letter-spacing: 2px;
+	}
 }
 
 @media only screen and (max-width: 640px) {
-  .page-container {
-    width: 100%;
-  }
+	.page-container {
+		width: 100%;
+	}
 
-  .tile-container {
-    display: block;
-  }
+	.tile-container {
+		display: block;
+	}
 
-  .tile {
-    margin-top: 2%;
-  }
+	.tile {
+		margin-top: 2%;
+	}
 
-  .navlinks {
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
+	.navlinks {
+		display: grid;
+		grid-template-columns: auto auto auto;
+	}
 
-  .navlinks li {
-    text-align: center;
-    margin-left: 0.3rem;
-  }
+	.navlinks li {
+		text-align: center;
+		margin-left: 0.3rem;
+	}
 
-  .navlinks li a span {
-    padding: 0.2rem;
-    font-size: 70%;
-    border: none !important;
-  }
+	.navlinks li a span {
+		padding: 0.2rem;
+		font-size: 70%;
+		border: none !important;
+	}
 
-  .services-content {
-    display: block;
-  }
+	.services-content {
+		display: block;
+	}
 
-  .content {
-    margin-top: 5%;
-  }
+	.content {
+		margin-top: 5%;
+	}
 
-  .help button {
-    width: 100%;
-  }
+	.help button {
+		width: 100%;
+	}
 
-  header {
-    height: 50px;
-  }
+	header {
+		height: 50px;
+	}
 }
